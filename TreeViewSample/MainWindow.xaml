@@ -3,6 +3,11 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <TreeView>
+            <TreeViewItem Header="Item1">
+                <TreeViewItem Header="Item1-1" />
+            </TreeViewItem>
+            <TreeViewItem Header="Item2" />
+        </TreeView>
     </Grid>
 </Window>
