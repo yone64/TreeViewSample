@@ -17,7 +17,7 @@ namespace TreeViewSample
                 new TreeViewItemViewModel
                 {
                     Header = "Item1",
-                    Children = new List<TreeViewItemViewModel> { new TreeViewItemViewModel { Header = "Item1-1" } }
+                    Children = new List<TreeViewItemViewModel> { new TreeViewItemViewModel { Header = "Item1-1", IsSelected = true} }
                 },
                 new TreeViewItemViewModel { Header = "Item2" }
             };
